@@ -1,3 +1,4 @@
+//C
 #include <stdio.h>
 int main( void )
 {
@@ -18,3 +19,16 @@ int main( void )
  printf("%d",t); 
   return 0;
 }
+
+
+--------------------------------------
+#python
+n = int (input())
+t = 0
+while (n > 1):
+	if(n % 2 == 0):
+		n = n / 2
+	else:
+		n = (3 * n + 1) / 2
+	t = t + 1
+print (t)

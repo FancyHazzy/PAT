@@ -52,19 +52,21 @@ int main(void)
 #python 版本的最后一个测试用例超时
 N = int(input())
 L = []
-youngest = 18140906
-oldest = 20140906
+youngest = 'yyy18140906'
+oldest = 'ooo20140906'
 count = 0
 for i in range(N):
-  info = input()
-  temp = info[:-6] + info[-5:-3] + info[-2:]
-  if 18140906<= int(temp[-8:0])<=20140906:
-    if int(temp[-8:0]) >= int(youngest[-8:0]):
-      youngest = temp
-    if int(temp[-8:0]) <= int(oldest[-8:0]):
-      oldest = temp
-    count += 1
+    info = input()
+    temp = info[:-6] + info[-5:-3] + info[-2:]
+
+    if (18140906 <= int(temp[-8:]) <= 20140906):
+        if int(temp[-8:]) >= int(youngest[-8:]):
+            youngest = temp
+        if int(temp[-8:]) <= int(oldest[-8:]):
+            oldest = temp
+        count += 1
+
 if (count == 0):
-	print(0)
+    print(count)
 else:
-	print (count + ' ' + oldest[:-8] + ' ' + youngest[:-8])
+    print(str(count) + ' ' + oldest[:-9] + ' ' + youngest[:-9])

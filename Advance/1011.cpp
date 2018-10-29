@@ -21,5 +21,5 @@ int main (void)
 	printf("%c %c %c %.2f",SELECT[1],SELECT[2],SELECT[3],total );
 
 	return 0;
-}
+}//
 

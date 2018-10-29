@@ -27,4 +27,4 @@ int main (void)
 	if (highest.grade == -1 || lowest.grade == 101)printf("NA");
 	else printf("%d",highest.grade - lowest.grade);
 	return 0;
-}
+}//

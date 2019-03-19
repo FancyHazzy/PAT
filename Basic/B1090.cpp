@@ -28,10 +28,7 @@ int main (void){
     cout << ((flag) ? "Yes":"No") << endl;
     num_set.clear();
   }
-  
-  
-  
   return 0;
 }
 
-
+//使用集合中的 find 方法进行查找，降低复杂度。如果找到，返回该元素迭代器；如果没有找到，返回 end 迭代器，即 s.end() ，使用完记得 s.clear()

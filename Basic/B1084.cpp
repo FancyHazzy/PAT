@@ -1,5 +1,5 @@
-//里面那层for循环的作用是找到最后一个相同数字的下标
-
+//里面那层for循环的作用是找到最后一个相同数字的下标 。
+//
 
 #include <iostream>
 using namespace std;

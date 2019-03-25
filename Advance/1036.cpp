@@ -5,7 +5,7 @@ struct stu{
 }temp,highest,lowest;
 
 #include<stdio.h>
-int main (void)
+int main (void) 
 {
 	highest.grade = -1;
 	lowest.grade = 101;

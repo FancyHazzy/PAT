@@ -11,7 +11,7 @@ int main (void)
 	lowest.grade = 101;
 	char gender;
 	int N;
-	scanf("%d",&N);
+	scanf("%d",&N);   
 	for (int i = 0;i < N ;i++)
 	{
 		scanf("%s %c %s %d",temp.name,&gender,temp.ID,&temp.grade);

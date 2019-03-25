@@ -1,5 +1,5 @@
 struct stu{
-	char name[15];
+	char name[15]; 
 	char ID[15];
 	int grade ;
 }temp,highest,lowest;

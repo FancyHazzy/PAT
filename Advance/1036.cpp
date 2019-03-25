@@ -28,3 +28,4 @@ int main (void)
 	else printf("%d",highest.grade - lowest.grade);
 	return 0;
 }//
+ 

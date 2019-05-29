@@ -10,7 +10,7 @@ int n, m;//n个人，m个非叶节点
 int LARGEST = 0;
 int max_peoples[maxn] = {0};
 
-void BFS(int index, int deep){
+void DFS(int index, int deep){
     max_peoples[deep]++;
     if (Node[index].size() == 0){
         return ;
@@ -32,7 +32,7 @@ int main (void){
         }
     }
 
-    BFS(1, 1);
+    DFS(1, 1);
     int MAX_People = 0, MAX_deep = -1;
     for (int i = 1; i < maxn;i++){
         if (MAX_People < max_peoples[i] ){

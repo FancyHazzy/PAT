@@ -94,4 +94,4 @@ int main(void){
     printf(" %d", minback);
     
     return 0;
-}
+} 
